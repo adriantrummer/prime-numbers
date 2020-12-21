@@ -14,4 +14,4 @@ while True:
         counter -= 1
     if is_prime == True:
         print(i)
-    time.sleep(0.1)
+#    time.sleep(0.1)
