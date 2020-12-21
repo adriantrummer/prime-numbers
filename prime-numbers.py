@@ -9,9 +9,9 @@ while True:
     counter = i - 1
     is_prime = True
     while counter > 1:
-        if not i % counter:
+        if i % counter == 0:
             is_prime = False
         counter -= 1
     if is_prime == True:
         print(i)
- #   time.sleep(0.1)
+    time.sleep(0.1)
